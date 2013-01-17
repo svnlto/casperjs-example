@@ -1,0 +1,9 @@
+{
+  "name": "casperjs-example",
+  "version": "0.1.0",
+  "description": "example to get started running casperjs test suites using grunt-ghost",
+  "dependencies": {
+    "grunt-ghost": "~0.0.98"
+  },
+  "author": "Sven Lito <me@svenlito.com>"
+}
