@@ -6,8 +6,6 @@ casper.test.comment('go to homepage');
 
 casper.start(BASE_URL, function() {
 
-  var lobby = BASE_URL;
-
   this.test.info('Current location is ' + this.getCurrentUrl());
 
   this.test.assert(this.getCurrentUrl() === BASE_URL);
